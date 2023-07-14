@@ -15,13 +15,24 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
 div#container {
     height: 100vh;
+    width: 100vw;
     background: linear-gradient(
       var(--third-color),
       var(--first-color),
       var(--second-color)
     );
+}
+
+div#content {
+    width: 340px;
+    margin: auto;
 }
 
 header {
@@ -60,7 +71,7 @@ div#links {
     height: 100vh;
     font-family: var(--principal-font);
     margin: 16px;
-    height: 474px;
+    height: 438px;
     display: flex;
     flex-direction: column;
 }
