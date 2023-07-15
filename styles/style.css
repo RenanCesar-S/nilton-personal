@@ -65,7 +65,6 @@ header p:last-child{
 }
 
 div#links {
-    border: 1px solid blue;
     height: 100vh;
     font-family: var(--principal-font);
     margin: 16px;
